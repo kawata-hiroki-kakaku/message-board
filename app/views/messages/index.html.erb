@@ -1,3 +1,4 @@
+
 <div class="panel panel-default">
   <div class="panel-heading">
     メッセージ一覧
@@ -17,6 +18,7 @@
   <%= f.text_field :name %>
 
   内容:
-  <%= f.text_field :body %>
+  <%= f.text_area :body, :size=>"100%x5" %>
   <%= f.submit class: "btn btn-sm btn-primary" %>
+  
 <% end %>
